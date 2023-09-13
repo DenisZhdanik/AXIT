@@ -1,10 +1,11 @@
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 .awesome {
+    margin: 0 auto;
     height: 665px;
     width: 1170px;
     text-align: center;
@@ -19,11 +20,11 @@
     line-height: 150px;
 }
 
-.awesome__separator {
+.awesome-separator {
+    margin: 0 auto 40px;
     width: 170px;
     height: 1px;
     background-color: #EC7979;
-    margin-bottom: 40px;
 }
 
 .awesome__text {
