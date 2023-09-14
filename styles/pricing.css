@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pricing-section {
+    height: 900px;
+    background-color: #F5F5F5;
+}
+
+.pricing {
+    margin: 0 auto;
+    width: 1170px;
+    height: 900px;
+}
+
+.pricing-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-text__header {
+    margin: 115px auto 60px;
+    color: #000;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.pricing-separator {
+    margin-bottom: 40px;
+    width: 170px;
+    border: 1px solid #EC7979;
+}
+
+.pricing-text__subheader {
+    margin-bottom: 60px;
+    color: #86878B;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.pricing-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing-tariff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-tariff__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 60px;
+    border: 2px solid #F5F5F5;
+    background-color: #333;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.pricing-tariff__price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 100px;
+    border: 2px solid #F5F5F5;
+    background-color: #333;
+    color: #FFF;
+    font-family: "Raleway",sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.pricing-tariff__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 50px;
+    border: 2px solid #F5F5F5;
+    background: #333;
+    color: rgba(255, 255, 255, .5);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pricing-tariff__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 50px;
+    border: 2px solid #F5F5F5;
+    background-color: #FFF;
+    color: #86878B;
+    font-family: "Raleway",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.pricing-box-shadow {
+    box-shadow: 0px 4px 10px rgba(51, 51, 51, .2);
+}
+
+.pricing-block-down {
+    margin-top: 20px;
+}
+
