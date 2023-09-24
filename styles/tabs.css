@@ -8,7 +8,6 @@
 .tabs {
     margin: 0 auto;
     width: 1170px;
-    margin-bottom: 50px;
 }
 
 .tabs-nav {
@@ -17,7 +16,6 @@
 }
 
 .tabs-nav__link{
-    /* display: inline-block; */
     width: 203px;
     height: 40px;
     text-align: center;
@@ -30,8 +28,6 @@
 
 .tab-one {
     border-radius: 5px 5px 0px 0px;
-    /* border: 1px solid #C6CBCD; */
-    /* border-bottom: 1px solid #fff; */
     border-top: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
     border-left: 1px solid #C6CBCD;
@@ -59,9 +55,6 @@
     border-right: 1px solid #C6CBCD;
     border-bottom: 1px solid #C6CBCD;
     border-left: 1px solid #C6CBCD;
-    /* border: 1px solid #C6CBCD; */
-    /* min-height: 500px; */
-    /* margin-top: -2px; */
 }
 
 .tabs-text {
@@ -91,7 +84,7 @@
     margin-bottom: 27px;
 }
 
-.tabs-text__btn {
+.tabs-text__btn_btn-hover {
     width: 270px;
     height: 58px;
     color: #FFF;
@@ -101,15 +94,15 @@
     cursor: pointer;
     background-color: #EC7979;
     border: 2px solid #EC7979;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
-.tabs-text__btn:hover {
+.tabs-text__btn_btn-hover:hover {
     border: 2px solid #AB4949;
     background-color: #AB4949;
 }
 
-.tabs-text__btn:active {
+.tabs-text__btn_btn-hover:active {
     background: #EC7979;
     box-shadow: 0px 0px 10px 0px #AB4949 inset;
 }

@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.social-section {
+    width: 100%;
+    height: 140px;
+    background-color:#F8EFEF;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.social-text {
+    width: 470px;
+}
+
+.social-text__header {
+    width: 470px;
+    height: 60px;
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 18px;
+}
+
+.social-text__paragraph {
+    color: #86878B;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 670px;
+    height: 140px;
+}
+
+.social-links i {
+    font-size:48px;
+    color: #CCCCCC;
+}
+
+
+

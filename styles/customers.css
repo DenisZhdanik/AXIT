@@ -13,31 +13,6 @@
     width: 1170px;
     height: 630px;
     text-align: center;
-
-}
-
-.customers-header {
-    font-family: "Raleway", sans-serif;
-    font-size: 36px;
-    font-weight: 400;
-    text-transform: uppercase;
-    height: 150px;
-    line-height: 150px;
-}
-
-.customers-separator {
-    margin: 0 auto;
-    margin-bottom: 40px;
-    width: 170px;
-    border: 1px solid #EC7979;
-}
-
-.customers-subheader {
-    margin-bottom: 60px;
-    color: #86878B;
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
 }
 
 .review-block {

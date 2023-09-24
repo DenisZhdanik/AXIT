@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.design-section {
+    background: url("/img/city_down.png") center center/cover no-repeat;
+    height: 440px;
+}
+
+.design-shadow {
+    height: 440px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.design {
+    position: relative;
+    top: 50px;
+    margin: 0px auto 50px;
+    text-align: center;
+    width: 1170px;
+}
+
+.design__title {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    height: 150px;
+    line-height: 150px;
+}
+
+.design-separator {
+    margin: 0 auto 40px;
+    width: 170px;
+    border: 1px solid #fff;
+}
+
+.design__text {
+    margin-bottom: 75px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.design__btn_hover {
+    width: 370px;
+    height: 58px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #FFF;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.design__btn_hover:hover {
+    border: 2px solid #EC7979;
+    color: #EC7979;
+}
+
+.design__btn_hover:active {
+    border: 2px solid #AB4949;
+    background: #AB4949;
+    color: #FFF;
+}
+
+
+
+
