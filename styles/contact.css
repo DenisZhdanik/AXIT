@@ -25,14 +25,14 @@
     height: 220px;
 }
 
-.form-input-left input::placeholder, .form-input-rigth textarea::placeholder {
+.form-input-left__input::placeholder, .form-input-rigth_message::placeholder {
     color: #BDBDBD;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
 
-.form-input-left_name, .form-input-left_email, .form-input-left_password {
+.form-input-left__input {
     border: none;
     border-bottom:1px solid #BDBDBD;
 }
@@ -43,32 +43,32 @@
     justify-content: space-between;
 }
 
-.form-input-left input {
+.form-input-left__input {
     width: 570px;
     height: 42px;
     font-size: 14px;
     color: #000;
     font-family: "Open Sans",sans-serif;
-    font-size: 14px;
     font-weight: 400;
 }
 
-.form-input-left input:focus {
+.form-input-left__input:focus {
     outline: none;
 }
 
-.form-input-rigth textarea {
+.form-input-rigth_message {
     width: 570px;
     font-size: 14px;
     border: none;
+    resize: none;
     border-bottom: 1px solid #BDBDBD;
 }
 
-.form-input-rigth textarea:focus {
+.form-input-rigth_message:focus {
     outline: none;
 }
 
-.contact-input__btn_hover {
+.contact-input__btn {
     width: 370px;
     height: 58px;
     background-color: #EC7979;
@@ -81,6 +81,7 @@
 }
 
 .contact-input__btn_hover:hover {
+    transition: 0.2s;
     border: 2px solid #AB4949;
     background-color: #AB4949;
 }

@@ -18,9 +18,14 @@
     justify-content: space-between;
 }
 
-.footer i {
+.footer__link {
     font-size:48px;
     color: #CCCCCC;
+}
+
+.footer__link_hover:hover {
+    transition: 0.2s;
+    color: #EC7979;
 }
 
 .footer-section__publishing {

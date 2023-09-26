@@ -5,7 +5,7 @@
 }
 
 .design-section {
-    background: url("/img/city_down.png") center center/cover no-repeat;
+    background: url("../img/city_down.png") center center/cover no-repeat;
     height: 440px;
 }
 
@@ -46,7 +46,7 @@
     font-weight: 400;
 }
 
-.design__btn_hover {
+.design__btn {
     width: 370px;
     height: 58px;
     color: #FFF;
@@ -70,6 +70,8 @@
     background: #AB4949;
     color: #FFF;
 }
+
+
 
 
 

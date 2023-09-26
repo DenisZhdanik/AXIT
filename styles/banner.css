@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner-section {
+    background: url("../img/city_up.png") center center/cover no-repeat;
+    height: 1025px;
+}
+
+.banner_shadow {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 1025px;
+}
+
+.banner-block {
+    position: relative;
+    margin: 0 auto;
+    width: 1170px;
+    transform: translateY(305px);
+}
+
+.banner-axit {
+    margin-bottom: 73px;
+}
+ 
+.banner-text {
+    width: 670px;
+}
+
+.banner-text__header {
+    color: #FFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+
+.banner-separator {
+    width: 170px;
+    border:1px solid #fff;
+    margin-bottom: 42px;
+}
+
+.banner-text__paragraph {
+    color: #FFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 42px;
+}
+
+.banner-text__btn {
+    width: 270px;
+    height: 58px;
+    border: 2px solid #FFF;
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.banner-text__btn_hover:hover {
+    border: 2px solid #EC7979;
+    color: #EC7979;
+    transition: 0.2s;
+}
+
+.banner-text__btn_hover:active {
+    border: 2px solid #AB4949;
+    background: #AB4949;
+    color: #FFF;
+}
+
+.banner-form {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 470px;
+    height: 390px;
+    border-radius: 10px 10px 0 0;
+    background: #FFF;
+}
+
+.banner-input__header {
+    margin: 0 auto;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.banner-input__span {
+    color: #EC7979;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.banner-form-input {
+    margin: 0 auto;
+    display: flex;
+    width: 370px;
+    height: 190px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-form-input_name, .banner-form-input_password, .banner-form-input_email {
+    width: 370px;
+    height: 48px;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-bottom:1px solid #BDBDBD;
+}
+
+.banner-form-input_name, .banner-form-input_password, .banner-form-input_email:focus {
+    outline:none;
+}
+
+.banner-form__btn {
+    width: 470px;
+    height: 60px;
+    border: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+    background: #EC7979;
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 75px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.banner-form__btn_hover:hover {
+    background-color: #AB4949;
+}
+
+.banner-form__btn_hover:active {
+    background-color: #EC7979;
+    box-shadow: 0 0 10px 0 #AB4949 inset;
+}

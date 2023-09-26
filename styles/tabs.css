@@ -26,18 +26,18 @@
     font-weight: 400;
 }
 
-.tab-one {
+.tabs-nav__link-one {
     border-radius: 5px 5px 0px 0px;
     border-top: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
     border-left: 1px solid #C6CBCD;
 }
 
-.tab-two, .tab-three {
+.tabs-nav__link-two, .tabs-nav__link-three {
     border-bottom: 1px solid #C6CBCD;
 }
 
-.tab-two:hover, .tab-three:hover {
+.tabs-nav__link-two:hover, .tabs-nav__link-three:hover {
     border-radius: 5px 5px 0px 0px;
     border-top: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
@@ -45,7 +45,7 @@
     border-bottom: none;
 }
 
-.tab-four {
+.tabs-nav__link-four {
     flex-grow: 1;
     border-bottom: 1px solid #C6CBCD;
     cursor: default;

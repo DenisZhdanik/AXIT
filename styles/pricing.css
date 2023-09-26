@@ -22,7 +22,7 @@
     align-items: center;
 }
 
-.pricing-tariff_hover {
+.pricing-tariff {
     display: flex;
     flex-direction: column;
     justify-content: center;

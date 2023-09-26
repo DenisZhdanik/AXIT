@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/repeat.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/banner.css">
     <link rel="stylesheet" href="./styles/awesome.css">
     <link rel="stylesheet" href="./styles/tabs.css">
     <link rel="stylesheet" href="./styles/pricing.css">
     <link rel="stylesheet" href="./styles/customers.css">
     <link rel="stylesheet" href="./styles/design.css">
     <link rel="stylesheet" href="./styles/contact.css">
-    <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/social.css">
     <link rel="stylesheet" href="./styles/footer.css">
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap"
         rel="stylesheet">
 </head>
 
@@ -25,16 +26,45 @@
         <div class="header">
             <img class="header__img" src="./img/logo.svg" alt="logo">
             <nav class="header-nav">
-                <a href="#" class="header-nav_link">Features</a>
-                <a href="#" class="header-nav_link">About</a>
-                <a href="#" class="header-nav_link">Pricing</a>
-                <a href="#" class="header-nav_link">Reviews</a>
-                <a href="#" class="header-nav_link">Contact</a>
+                <a href="#" class="header-nav__link header-nav__link_hover">Features</a>
+                <a href="#" class="header-nav__link header-nav__link_hover">About</a>
+                <a href="#" class="header-nav__link header-nav__link_hover">Pricing</a>
+                <a href="#" class="header-nav__link header-nav__link_hover">Reviews</a>
+                <a href="#" class="header-nav__link header-nav__link_hover">Contact</a>
             </nav>
         </div>
     </header>
 
     <main>
+        <section class="banner-section">
+            <div class="banner_shadow">
+                <div class="banner-block">
+                    <div class="banner-axit">
+                        <img src="./img/AX.svg" alt="ax" class="banner-axit__ax">
+                        <img src="./img/IT.svg" alt="it" class="banner-axit__it">
+                    </div>
+                    <div class="banner-text">
+                        <h4 class="banner-text__header">modern axure template <br> for beautiful <br> prototypes</h4>
+                        <div class="banner-separator"></div>
+                        <p class="banner-text__paragraph">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit
+                        </p>
+                        <button class="banner-text__btn banner-text__btn_hover">Download</button>
+                    </div>
+                    <form action="#" class="banner-form">
+                        <h5 class="banner-input__header">
+                            Try Your <span class="banner-input__span"> FREE </span> Trial Today
+                        </h5>
+                        <div class="banner-form-input">
+                            <input type="text" name="name" placeholder="Name" class="banner-form-input_name">
+                            <input type="text" placeholder="Email" class="banner-form-input_email">
+                            <input type="password" placeholder="Password" class="banner-form-input_password">
+                        </div>
+                        <button type="submit" class="banner-form__btn banner-form__btn_hover">Get Started</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
         <section class="social-section">
             <div class="social">
                 <div class="social-text">
@@ -43,13 +73,20 @@
                         Aenean euismod bibendum laoreet.</p>
                 </div>
                 <div class="social-links">
-                    <a href="#" class="social-links__links"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="social-links__links"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#" class="social-links__links"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#" class="social-links__links"><i class="fa-brands fa-pinterest"></i></a>
-                    <a href="#" class="social-links__links"><i class="fa-brands fa-square-instagram"></i></a>
-                    <a href="#" class="social-links__links"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="social-links__links"><i class="fa-solid fa-rss"></i></a>
+                    <a href="#" class="social-links__links social-links__links_hover"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-links__links social-links__links_hover"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-links__links social-links__links_hover"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="social-links__links social-links__links_hover"><i
+                            class="fa-brands fa-pinterest"></i></a>
+                    <a href="#" class="social-links__links social-links__links_hover"><i
+                            class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" class="social-links__links social-links__links_hover"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="#" class="social-links__links social-links__links_hover"><i
+                            class="fa-solid fa-rss"></i></a>
                 </div>
             </div>
         </section>
@@ -57,10 +94,10 @@
         <section class="tabs-section">
             <div class="tabs">
                 <nav class="tabs-nav">
-                    <a class="tabs-nav__link tab-one" href="#">tab 1</a>
-                    <a class="tabs-nav__link tab-two" href="#">tab 2</a>
-                    <a class="tabs-nav__link tab-three" href="#">tab 3</a>
-                    <a class="tabs-nav__link tab-four" href="#"></a>
+                    <a class="tabs-nav__link tabs-nav__link-one" href="#">tab 1</a>
+                    <a class="tabs-nav__link tabs-nav__link-two" href="#">tab 2</a>
+                    <a class="tabs-nav__link tabs-nav__link-three" href="#">tab 3</a>
+                    <a class="tabs-nav__link-four" href="#"></a>
                 </nav>
                 <div class="tabs-box">
                     <div class="tabs-text">
@@ -122,7 +159,7 @@
                 <p class="repeat__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
                 <div class="pricing-block">
-                    <div class="pricing-tariff_hover">
+                    <div class="pricing-tariff pricing-tariff_hover">
                         <h4 class="pricing-tariff__name">Basic</h4>
                         <h4 class="pricing-tariff__price">$10</h4>
                         <h5 class="pricing-tariff__title">Free for life</h5>
@@ -134,7 +171,7 @@
                         <h6 class="pricing-tariff__text">1 gb of space</h6>
                     </div>
 
-                    <div class="pricing-tariff_hover">
+                    <div class="pricing-tariff pricing-tariff_hover">
                         <h4 class="pricing-tariff__name">Optima</h4>
                         <h4 class="pricing-tariff__price">$20</h4>
                         <h5 class="pricing-tariff__title">Free for life</h5>
@@ -146,7 +183,7 @@
                         <h6 class="pricing-tariff__text">1 gb of space</h6>
                     </div>
 
-                    <div class="pricing-tariff_hover">
+                    <div class="pricing-tariff pricing-tariff_hover">
                         <h4 class="pricing-tariff__name">Pro</h4>
                         <h4 class="pricing-tariff__price">$30</h4>
                         <h5 class="pricing-tariff__title">Free for life</h5>
@@ -234,7 +271,7 @@
                     <div class="design-separator"></div>
                     <p class="design__text">Use the sections you need, remove the ones you don't. Create gorgeous
                         prototypes faster than ever!</p>
-                    <button class="design__btn_hover">Download</button>
+                    <button class="design__btn design__btn_hover">Download</button>
                 </div>
             </div>
         </section>
@@ -247,15 +284,17 @@
                 <form action="#" class="contact-input">
                     <div class="contact-input-block">
                         <div class="form-input-left">
-                            <input type="text" name="username" placeholder="Name" class="form-input-left_name">
-                            <input type="text" placeholder="Email" class="form-input-left_email">
-                            <input type="password" name="userpass" placeholder="Password" class="form-input-left_password">
+                            <input type="text" name="username" placeholder="Name" class="form-input-left__input">
+                            <input type="text" placeholder="Email" class="form-input-left__input">
+                            <input type="password" name="userpass" placeholder="Password"
+                                class="form-input-left__input">
                         </div>
                         <div class="form-input-rigth">
-                            <textarea name="message" cols="0" rows="0" class="form-input-rigth_message" placeholder="Message"></textarea>
+                            <textarea name="message" cols="0" rows="0" class="form-input-rigth_message"
+                                placeholder="Message"></textarea>
                         </div>
                     </div>
-                    <button type="submit" class="contact-input__btn_hover">Send Message</button>
+                    <button type="submit" class="contact-input__btn contact-input__btn_hover">Send Message</button>
                 </form>
             </div>
         </section>
@@ -263,13 +302,13 @@
 
     <footer class="footer-section">
         <div class="footer">
-            <a href="#" class="footer__link"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#" class="footer__link"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#" class="footer__link"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" class="footer__link"><i class="fa-brands fa-pinterest"></i></a>
-            <a href="#" class="footer__link"><i class="fa-brands fa-square-instagram"></i></a>
-            <a href="#" class="footer__link"><i class="fa-brands fa-github"></i></a>
-            <a href="#" class="footer__link"><i class="fa-solid fa-rss"></i></a>
+            <a href="#" class="footer__link footer__link_hover"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="footer__link footer__link_hover"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="footer__link footer__link_hover"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" class="footer__link footer__link_hover"><i class="fa-brands fa-pinterest"></i></a>
+            <a href="#" class="footer__link footer__link_hover"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#" class="footer__link footer__link_hover"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="footer__link footer__link_hover"><i class="fa-solid fa-rss"></i></a>
         </div>
         <p class="footer-section__publishing">© 2015 Axure Themes</p>
     </footer>
