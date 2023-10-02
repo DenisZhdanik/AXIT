@@ -1,16 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .design-section {
     background: url("../img/city_down.png") center center/cover no-repeat;
     height: 440px;
 }
 
 .design-shadow {
-    height: 440px;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -19,7 +13,6 @@
     top: 50px;
     margin: 0px auto 50px;
     text-align: center;
-    width: 1170px;
 }
 
 .design__title {
@@ -28,8 +21,8 @@
     font-size: 36px;
     font-weight: 400;
     text-transform: uppercase;
-    height: 150px;
-    line-height: 150px;
+    margin-bottom: 50px;
+    padding-top: 55px;
 }
 
 .design-separator {

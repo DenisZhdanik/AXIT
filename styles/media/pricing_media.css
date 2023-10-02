@@ -1,0 +1,47 @@
+@media (max-width:1200px) {
+    .pricing-section {
+        height: 740px;
+    }
+
+    .pricing-tariff {
+        width: 315px;
+        height: 450px;
+    }
+
+    
+}
+
+@media (max-width:960px) {
+    .pricing-section {
+        height: 1480px;
+    }
+
+    .pricing-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pricing-tariff {
+        top: 0px;
+    }
+
+    .pricing-tariff {
+        width: 290px;
+        height: 400px;
+        margin-bottom: 28px;
+    }
+
+    .pricing-tariff__name {
+        font-size: 18px;
+    }
+
+    .pricing-tariff__price {
+        font-size: 24px;
+    }
+
+    .pricing-tariff__title {
+        font-size: 14px;
+    }
+}

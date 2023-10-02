@@ -1,0 +1,42 @@
+@media (max-width: 1200px) {
+    .tabs-text__title {
+        font-size: 24px;
+    }
+
+    .tabs-text__paragraph {
+        font-size: 14px;
+    }
+
+    .tabs-text {
+        padding-left: 8%;
+    }
+
+    .tabs-text__btn_btn-hover {
+        width: 230px;
+    }
+
+    .tabs-box__statue {
+        height: 100%;
+    }
+}
+
+@media (max-width: 960px) {
+    .tabs-box__statue {
+        display: none;
+    }
+
+    .tabs-nav__link-four {
+        display: none;
+    }
+
+    .tabs-nav__link {
+        width: 33.33%;
+    }
+
+    .tabs-text {
+        text-align: center;
+        width: 100%;
+        padding: 5%;
+    }
+
+}

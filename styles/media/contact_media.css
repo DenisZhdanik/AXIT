@@ -1,0 +1,49 @@
+@media (max-width: 1200px) {
+    .contact-section {
+        height: 660px;
+    }
+
+    .form-input-left__input, .form-input-rigth_message {
+        width: 440px;
+    }
+
+    .contact-input__btn {
+        width: 320px;
+    }
+
+    .contact-input-block{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 960px) {
+
+    .contact-section {
+        height: 850px;
+    }
+
+    .contact-input-block{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .form-input-left__input, .form-input-rigth_message {
+        width: 280px;
+    }
+
+    .form-input-left__input::placeholder, .form-input-rigth_message::placeholder {
+        font-size: 14px;
+    }
+
+    .form-input-left {
+        margin-bottom: 50px;
+    }
+
+    .contact-input__btn {
+        width: 280px;
+        height: 50px;
+    }
+}

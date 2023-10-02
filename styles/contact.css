@@ -1,13 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .contact {
-    margin: 50px auto 50px;
+    /* margin: 50px auto 50px;
     height: 620px;
-    width: 1170px;
+    width: 1170px; */
     text-align: center;
 }
 
@@ -28,7 +22,7 @@
 .form-input-left__input::placeholder, .form-input-rigth_message::placeholder {
     color: #BDBDBD;
     font-family: "Open Sans", sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -46,7 +40,7 @@
 .form-input-left__input {
     width: 570px;
     height: 42px;
-    font-size: 14px;
+    font-size: 18px;
     color: #000;
     font-family: "Open Sans",sans-serif;
     font-weight: 400;
@@ -58,7 +52,7 @@
 
 .form-input-rigth_message {
     width: 570px;
-    font-size: 14px;
+    font-size: 18px;
     border: none;
     resize: none;
     border-bottom: 1px solid #BDBDBD;
@@ -71,6 +65,7 @@
 .contact-input__btn {
     width: 370px;
     height: 58px;
+    margin-bottom: 50px;
     background-color: #EC7979;
     border: 1px solid #EC7979;
     color: #FFF;

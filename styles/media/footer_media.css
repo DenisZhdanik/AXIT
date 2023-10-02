@@ -1,0 +1,25 @@
+@media (max-width:1200px) {
+
+    .footer {
+        width: 470px;
+        margin-top: 40px;
+    }
+
+    .footer__link {
+        font-size:36px;
+    }
+
+    .footer-section__publishing {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:540px) {
+    .footer {
+        width: 260px;
+    }
+
+    .footer__link {
+        font-size:24px;
+    }
+}

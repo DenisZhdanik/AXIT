@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .banner-section {
     background: url("../img/city_up.png") center center/cover no-repeat;
@@ -11,22 +6,23 @@
 
 .banner_shadow {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 1025px;
+    height: 100%;
 }
 
 .banner-block {
-    position: relative;
-    margin: 0 auto;
-    width: 1170px;
-    transform: translateY(305px);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 290px;
+}
+
+.banner-info {
+    flex-grow: 1;
+    padding-right: 20px;
 }
 
 .banner-axit {
-    margin-bottom: 73px;
-}
- 
-.banner-text {
-    width: 670px;
+    margin-bottom: 70px;
 }
 
 .banner-text__header {
@@ -79,26 +75,20 @@
 }
 
 .banner-form {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 470px;
-    height: 390px;
-    border-radius: 10px 10px 0 0;
+    width: 40%;
+    border-radius: 10px;
     background: #FFF;
+    padding-top: 36px;
 }
 
 .banner-input__header {
-    margin: 0 auto;
-    height: 90px;
+    margin-bottom: 80px;
     text-align: center;
-    line-height: 90px;
     color: #333;
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 30px;
 }
 
 .banner-input__span {
@@ -109,33 +99,30 @@
     text-transform: uppercase;
 }
 
-.banner-form-input {
-    margin: 0 auto;
-    display: flex;
-    width: 370px;
-    height: 190px;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.banner-form-wrap {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.banner-form-input_name, .banner-form-input_password, .banner-form-input_email {
-    width: 370px;
-    height: 48px;
+.banner-form-wrap__input {
+    display: block;
+    padding-bottom: 15px;
+    width: 100%;
     color: #000;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 400;
     border: none;
     border-bottom:1px solid #BDBDBD;
+    margin-bottom: 30px;
 }
 
-.banner-form-input_name, .banner-form-input_password, .banner-form-input_email:focus {
+.banner-form-wrap__input:focus {
     outline:none;
 }
 
 .banner-form__btn {
-    width: 470px;
+    width: 100%;
     height: 60px;
     border: #EC7979;
     border-radius: 0px 0px 10px 10px;
@@ -145,7 +132,7 @@
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
     font-weight: 600;
-    margin-top: 75px;
+    margin-top: 40px;
     cursor: pointer;
     transition: 0.2s;
 }

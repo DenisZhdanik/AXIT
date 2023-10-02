@@ -1,0 +1,85 @@
+@media (max-width:1200px) {
+    .customers-section {
+        height: 615px;
+    }
+
+    .comment-text {
+        width: 320px;
+        height: 150px;
+        font-size: 14px;
+    }
+
+    .profile-photo__photo {
+        width: 60px;
+        margin-right: 20px;
+    }
+
+    .profile-name__name {
+        font-size: 18px;
+    }
+
+    .profile-name__proffesion {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1020px) {
+    .customers-section {
+        height: 570px;
+    }
+
+    .comment-text {
+        width: 300px;
+        height: 130px;
+    }
+
+    .profile-photo__photo {
+        width: 50px;
+    }
+
+    .profile-name__name {
+        font-size: 14px;
+    }
+
+    .profile-name__proffesion {
+        font-size: 11px;
+    }
+}
+
+@media (max-width:960px) {
+    .customers-section {
+        height: 1220px;
+    }
+
+    .review-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .comment {
+        margin-bottom: 25px;
+    }
+
+    .comment-text {
+        width: 290px;
+        height: 180px;
+    }
+
+    .profile-photo__photo {
+        width: 57px;
+    }
+
+    .profile-name__name {
+        font-size: 14px;
+    }
+
+    .profile-name__proffesion {
+        font-size: 11px;
+    }
+
+    .review {
+        margin-bottom: 50px;
+    }
+}

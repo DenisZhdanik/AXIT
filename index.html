@@ -16,15 +16,27 @@
     <link rel="stylesheet" href="./styles/contact.css">
     <link rel="stylesheet" href="./styles/social.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/media/header_media.css">
+    <link rel="stylesheet" href="./styles/media/banner_media.css">
+    <link rel="stylesheet" href="./styles/media/social_media.css">
+    <link rel="stylesheet" href="./styles/media/tabs_media.css">
+    <link rel="stylesheet" href="./styles/media/awesome_media.css">
+    <link rel="stylesheet" href="./styles/media/pricing_media.css">
+    <link rel="stylesheet" href="./styles/media/customers_media.css">
+    <link rel="stylesheet" href="./styles/media/design_media.css">
+    <link rel="stylesheet" href="./styles/media/contact_media.css">
+    <link rel="stylesheet" href="./styles/media/footer_media.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
+
     <header class="header-section">
-        <div class="header">
+        <div class="header container">
             <img class="header__img" src="./img/logo.svg" alt="logo">
+            <button class="header__bar-btn"><i class="fa-sharp fa-solid fa-bars"></i></button>
             <nav class="header-nav">
                 <a href="#" class="header-nav__link header-nav__link_hover">Features</a>
                 <a href="#" class="header-nav__link header-nav__link_hover">About</a>
@@ -38,26 +50,30 @@
     <main>
         <section class="banner-section">
             <div class="banner_shadow">
-                <div class="banner-block">
-                    <div class="banner-axit">
-                        <img src="./img/AX.svg" alt="ax" class="banner-axit__ax">
-                        <img src="./img/IT.svg" alt="it" class="banner-axit__it">
-                    </div>
-                    <div class="banner-text">
-                        <h4 class="banner-text__header">modern axure template <br> for beautiful <br> prototypes</h4>
-                        <div class="banner-separator"></div>
-                        <p class="banner-text__paragraph">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit
-                        </p>
-                        <button class="banner-text__btn banner-text__btn_hover">Download</button>
+                <div class="banner-block container">
+                    <div class="banner-info">
+                        <div class="banner-axit">
+                            <img src="./img/AX.svg" alt="ax" class="banner-axit__ax">
+                            <img src="./img/IT.svg" alt="it" class="banner-axit__it">
+                        </div>
+                        <div class="banner-text">
+                            <h4 class="banner-text__header">modern axure template <br> for beautiful <br> prototypes
+                            </h4>
+                            <div class="banner-separator"></div>
+                            <p class="banner-text__paragraph">Lorem ipsum dolor sit amet, <br> consectetur adipiscing
+                                elit
+                            </p>
+                            <button class="banner-text__btn banner-text__btn_hover">Download</button>
+                        </div>
                     </div>
                     <form action="#" class="banner-form">
                         <h5 class="banner-input__header">
                             Try Your <span class="banner-input__span"> FREE </span> Trial Today
                         </h5>
-                        <div class="banner-form-input">
-                            <input type="text" name="name" placeholder="Name" class="banner-form-input_name">
-                            <input type="text" placeholder="Email" class="banner-form-input_email">
-                            <input type="password" placeholder="Password" class="banner-form-input_password">
+                        <div class="banner-form-wrap">
+                            <input type="text" name="name" placeholder="Name" class="banner-form-wrap__input">
+                            <input type="text" placeholder="Email" class="banner-form-wrap__input">
+                            <input type="password" placeholder="Password" class="banner-form-wrap__input">
                         </div>
                         <button type="submit" class="banner-form__btn banner-form__btn_hover">Get Started</button>
                     </form>
@@ -66,7 +82,7 @@
         </section>
 
         <section class="social-section">
-            <div class="social">
+            <div class="social container">
                 <div class="social-text">
                     <h4 class="social-text__header">Social Media</h4>
                     <p class="social-text__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -92,7 +108,7 @@
         </section>
 
         <section class="tabs-section">
-            <div class="tabs">
+            <div class="tabs container">
                 <nav class="tabs-nav">
                     <a class="tabs-nav__link tabs-nav__link-one" href="#">tab 1</a>
                     <a class="tabs-nav__link tabs-nav__link-two" href="#">tab 2</a>
@@ -103,12 +119,11 @@
                     <div class="tabs-text">
                         <h2 class="tabs-text__title">Tabs with soft transitioning effect.</h2>
                         <p class="tabs-text__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                            <br>
-                            euismod <br>
-                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et <br> viverra <br>
-                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque <br>
+                            euismod
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
                             penatibus et magnis dis parturient montes. <br> <br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br> euismod <br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
                             bibendum laoreet.
                         </p>
                         <button class="tabs-text__btn_btn-hover">Download</button>
@@ -119,7 +134,7 @@
         </section>
 
         <section class="awesome-section">
-            <div class="awesome">
+            <div class="awesome ">
                 <h2 class="repeat__title">why this is awesome</h2>
                 <div class="repeat-separator"></div>
                 <p class="repeat__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -153,7 +168,7 @@
         </section>
 
         <section class="pricing-section">
-            <div class="pricing">
+            <div class="pricing container">
                 <h2 class="repeat__title">pricing options</h2>
                 <div class="repeat-separator"></div>
                 <p class="repeat__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -199,7 +214,7 @@
         </section>
 
         <section class="customers-section">
-            <div class="customers">
+            <div class="customers container">
                 <h2 class="repeat__title">what our customers are saying</h2>
                 <div class="repeat-separator"></div>
                 <p class="repeat__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -264,9 +279,10 @@
                     </div>
                 </div>
         </section>
+
         <section class="design-section">
             <div class="design-shadow">
-                <div class="design">
+                <div class="design container">
                     <h2 class="design__title">stylish axure design</h2>
                     <div class="design-separator"></div>
                     <p class="design__text">Use the sections you need, remove the ones you don't. Create gorgeous
@@ -277,7 +293,7 @@
         </section>
 
         <section class="contact-section">
-            <div class="contact">
+            <div class="contact container">
                 <h2 class="repeat__title">contact us</h2>
                 <div class="repeat-separator"></div>
                 <p class="repeat__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -301,7 +317,7 @@
     </main>
 
     <footer class="footer-section">
-        <div class="footer">
+        <div class="footer container">
             <a href="#" class="footer__link footer__link_hover"><i class="fa-brands fa-facebook-f"></i></a>
             <a href="#" class="footer__link footer__link_hover"><i class="fa-brands fa-twitter"></i></a>
             <a href="#" class="footer__link footer__link_hover"><i class="fa-brands fa-linkedin"></i></a>

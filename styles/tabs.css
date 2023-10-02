@@ -1,22 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-
-.tabs {
-    margin: 0 auto;
-    width: 1170px;
-}
-
 .tabs-nav {
     display: flex;
     text-transform: uppercase;
 }
 
 .tabs-nav__link{
-    width: 203px;
+    width: 20%;
     height: 40px;
     text-align: center;
     line-height: 40px;
@@ -58,26 +46,29 @@
 }
 
 .tabs-text {
-    width: calc(100% - 470px);
+    width: calc(100% - 40%);
     display: inline-block;
     padding-left: 100px;
+    padding-right: 20px;
     margin-right: -4px;
     vertical-align: top;
 }
 
+.tabs-box__statue {
+    width: 40%;
+}
+
 .tabs-text__title {
-    width: 570px;
-    height: 124px;
+    width: 100%;
     font-family: "Open Sans", sans-serif;
     font-size: 30px;
     font-weight: 700;
-    line-height: 124px;
-    margin-bottom: 27px;
+    margin-top: 45px;
+    margin-bottom: 75px;
 }
 
 .tabs-text__paragraph {
-    width: 570px;
-    height: 210px;
+    width: 100%;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 400;
